@@ -1,0 +1,4 @@
+Keyspace: keyspace8
+Replication Class: SimpleStrategy
+Replication Factor: 3
+Tables: []

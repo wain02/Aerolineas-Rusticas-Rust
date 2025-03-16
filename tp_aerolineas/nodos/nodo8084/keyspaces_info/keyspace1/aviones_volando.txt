@@ -1,0 +1,4 @@
+Table: aviones_volando
+Partition Key: [flight_number, origin, destination]
+Clustering Key: [origin, fecha]
+Columns: flight_number INT, origin VARCHAR(100), destination VARCHAR(100), lat FLOAT, lon VARCHAR(100), altitude VARCHAR(100), speed INT, airline VARCHAR(100), direction VARCHAR(50), fuel_percentage FLOAT, status VARCHAR(100), fecha VARCHAR(100)

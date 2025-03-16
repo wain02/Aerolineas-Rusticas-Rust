@@ -1,0 +1,8 @@
+target
+**/tests/*
+*.log
+*.pdf
+*.git
+*.idea
+*.vscode
+node_modules

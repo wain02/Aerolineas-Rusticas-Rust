@@ -1,0 +1,4 @@
+Table: aviones_en_aeropuerto
+Partition Key: [flight_number, origin]
+Clustering Key: [origin, fecha]
+Columns: flight_number VARCHAR(100), origin VARCHAR(100), destination VARCHAR(100), airline VARCHAR(100), departure VARCHAR(100), state VARCHAR(100), fecha VARCHAR(100)

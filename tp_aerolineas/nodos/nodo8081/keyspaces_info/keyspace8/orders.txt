@@ -1,0 +1,4 @@
+Table: orders
+Partition Key: [order_id]
+Clustering Key: [user_id]
+Columns: order_id INT, user_id INT

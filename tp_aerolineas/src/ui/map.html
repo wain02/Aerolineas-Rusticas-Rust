@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mapa de Vuelos</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Crear el mapa y centrarlo en Sudamérica
+        var map = L.map('map').setView([-34.6037, -58.3816], 5);
+
+        // Capa de mapa desde OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        }).addTo(map);
+
+        // Marcadores de vuelos simulados
+        var flights = [
+            { "lat": -33.4489, "lon": -70.6693, "name": "LA457 - Santiago" },
+            { "lat": -34.8222, "lon": -58.5358, "name": "AR124 - Buenos Aires" }
+        ];
+
+        flights.forEach(function (flight) {
+            L.marker([flight.lat, flight.lon]).addTo(map)
+                .bindPopup(flight.name)
+                .openPopup();
+        });
+    </script>
+</body>
+</html>

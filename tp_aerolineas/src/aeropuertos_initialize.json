@@ -1,0 +1,443 @@
+[
+    {
+        "flight_number": "XA887",
+        "origin": "EZE",
+        "destination": "GRU",
+        "airline": "Aerolínea XYZ",
+        "status": "Demorado",
+        "departure": "10:00",
+        "date": "28-10-24"
+    },
+    {
+        "flight_number": "FB685",
+        "origin": "EZE",
+        "destination": "SCL",
+        "airline": "Flybondi",
+        "status": "ATiempo",
+        "departure": "20:00",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "GL239",
+        "origin": "GRU",
+        "destination": "EZE",
+        "airline": "Delta Airlines",
+        "status": "Adelantado",
+        "departure": "12:45",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AR221",
+        "origin": "SCL",
+        "destination": "GRU",
+        "airline": "Jet Smart",
+        "status": "Cancelado",
+        "departure": "12:55",
+        "date": "28-10-24"
+    },
+    {
+        "flight_number": "LX100",
+        "origin": "EZE",
+        "destination": "BOG",
+        "airline": "Lufthansa",
+        "status": "Demorado",
+        "departure": "15:30",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "AA233",
+        "origin": "GRU",
+        "destination": "CCS",
+        "airline": "American Airlines",
+        "status": "ATiempo",
+        "departure": "09:15",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH456",
+        "origin": "BOG",
+        "destination": "LIM",
+        "airline": "Lufthansa",
+        "status": "Adelantado",
+        "departure": "11:00",
+        "date": "28-10-24"
+    },
+    {
+        "flight_number": "AF987",
+        "origin": "SCL",
+        "destination": "GRU",
+        "airline": "Air France",
+        "status": "Cancelado",
+        "departure": "14:45",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "BA321",
+        "origin": "EZE",
+        "destination": "LIM",
+        "airline": "British Airways",
+        "status": "ATiempo",
+        "departure": "08:30",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "IB654",
+        "origin": "EZE",
+        "destination": "SCL",
+        "airline": "Iberia",
+        "status": "Demorado",
+        "departure": "17:20",
+        "date": "28-10-24"
+    },
+    {
+        "flight_number": "KL789",
+        "origin": "LIM",
+        "destination": "EZE",
+        "airline": "KLM",
+        "status": "ATiempo",
+        "departure": "19:10",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "UA456",
+        "origin": "SCL",
+        "destination": "BOG",
+        "airline": "United Airlines",
+        "status": "Adelantado",
+        "departure": "21:50",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH333",
+        "origin": "EZE",
+        "destination": "CCS",
+        "airline": "Lufthansa",
+        "status": "Cancelado",
+        "departure": "16:25",
+        "date": "28-10-24"
+    },
+    {
+        "flight_number": "AI111",
+        "origin": "GRU",
+        "destination": "LIM",
+        "airline": "Air India",
+        "status": "ATiempo",
+        "departure": "07:30",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "NZ222",
+        "origin": "BOG",
+        "destination": "EZE",
+        "airline": "Air New Zealand",
+        "status": "Demorado",
+        "departure": "18:00",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "EY444",
+        "origin": "LIM",
+        "destination": "SCL",
+        "airline": "Etihad Airways",
+        "status": "ATiempo",
+        "departure": "13:15",
+        "date": "28-10-24"
+    },
+    {
+        "flight_number": "QR555",
+        "origin": "CCS",
+        "destination": "GRU",
+        "airline": "Qatar Airways",
+        "status": "Adelantado",
+        "departure": "11:05",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "SU666",
+        "origin": "SCL",
+        "destination": "BOG",
+        "airline": "Aeroflot",
+        "status": "Cancelado",
+        "departure": "22:30",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "EK777",
+        "origin": "BOG",
+        "destination": "LIM",
+        "airline": "Emirates",
+        "status": "ATiempo",
+        "departure": "12:00",
+        "date": "28-10-24"
+    },
+    {
+        "flight_number": "AC888",
+        "origin": "LIM",
+        "destination": "EZE",
+        "airline": "Air Canada",
+        "status": "Demorado",
+        "departure": "15:55",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "LH322",
+        "origin": "EZE",
+        "destination": "SCL",
+        "airline": "Lufthansa",
+        "status": "ATiempo",
+        "departure": "09:40",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "99A",
+        "origin": "EZE",
+        "destination": "GRU",
+        "airline": "Aerolínea XYZ",
+        "status": "Demorado",
+        "departure": "10:00",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "FB789",
+        "origin": "EZE",
+        "destination": "SCL",
+        "airline": "Flybondi",
+        "status": "ATiempo",
+        "departure": "20:00",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "GL559",
+        "origin": "GRU",
+        "destination": "EZE",
+        "airline": "Delta Airlines",
+        "status": "Adelantado",
+        "departure": "12:45",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AR883",
+        "origin": "SCL",
+        "destination": "GRU",
+        "airline": "Jet Smart",
+        "status": "Cancelado",
+        "departure": "12:55",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "LX222",
+        "origin": "EZE",
+        "destination": "BOG",
+        "airline": "Lufthansa",
+        "status": "Demorado",
+        "departure": "15:30",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "AA292",
+        "origin": "GRU",
+        "destination": "CCS",
+        "airline": "American Airlines",
+        "status": "ATiempo",
+        "departure": "09:15",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "LH555",
+        "origin": "BOG",
+        "destination": "LIM",
+        "airline": "Lufthansa",
+        "status": "Adelantado",
+        "departure": "11:00",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "AF101",
+        "origin": "SCL",
+        "destination": "GRU",
+        "airline": "Air France",
+        "status": "Cancelado",
+        "departure": "14:45",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "BA444",
+        "origin": "EZE",
+        "destination": "LIM",
+        "airline": "British Airways",
+        "status": "ATiempo",
+        "departure": "08:30",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "IB303",
+        "origin": "EZE",
+        "destination": "SCL",
+        "airline": "Iberia",
+        "status": "Demorado",
+        "departure": "17:20",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "KL444",
+        "origin": "LIM",
+        "destination": "EZE",
+        "airline": "KLM",
+        "status": "ATiempo",
+        "departure": "19:10",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "UA222",
+        "origin": "SCL",
+        "destination": "BOG",
+        "airline": "United Airlines",
+        "status": "Adelantado",
+        "departure": "21:50",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "XA123",
+        "origin": "CCS",
+        "destination": "GRU",
+        "airline": "Aerolínea XYZ",
+        "status": "ATiempo",
+        "departure": "12:00",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "FB234",
+        "origin": "CCS",
+        "destination": "SCL",
+        "airline": "Flybondi",
+        "status": "Adelantado",
+        "departure": "18:00",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "GL467",
+        "origin": "GRU",
+        "destination": "EZE",
+        "airline": "Delta Airlines",
+        "status": "Demorado",
+        "departure": "14:30",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AR567",
+        "origin": "SCL",
+        "destination": "GRU",
+        "airline": "Jet Smart",
+        "status": "ATiempo",
+        "departure": "13:10",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LX111",
+        "origin": "CCS",
+        "destination": "BOG",
+        "airline": "Lufthansa",
+        "status": "Adelantado",
+        "departure": "17:15",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "AA344",
+        "origin": "GRU",
+        "destination": "CCS",
+        "airline": "American Airlines",
+        "status": "Demorado",
+        "departure": "12:50",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH789",
+        "origin": "BOG",
+        "destination": "LIM",
+        "airline": "Lufthansa",
+        "status": "Cancelado",
+        "departure": "10:30",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AF654",
+        "origin": "SCL",
+        "destination": "GRU",
+        "airline": "Air France",
+        "status": "Adelantado",
+        "departure": "16:45",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "BA555",
+        "origin": "CCS",
+        "destination": "LIM",
+        "airline": "British Airways",
+        "status": "Demorado",
+        "departure": "09:00",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "IB999",
+        "origin": "CCS",
+        "destination": "SCL",
+        "airline": "Iberia",
+        "status": "ATiempo",
+        "departure": "22:20",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "KL101",
+        "origin": "LIM",
+        "destination": "EZE",
+        "airline": "KLM",
+        "status": "Adelantado",
+        "departure": "07:25",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "UA789",
+        "origin": "SCL",
+        "destination": "BOG",
+        "airline": "United Airlines",
+        "status": "Cancelado",
+        "departure": "20:00",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH444",
+        "origin": "EZE",
+        "destination": "CCS",
+        "airline": "Lufthansa",
+        "status": "ATiempo",
+        "departure": "13:30",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AI789",
+        "origin": "GRU",
+        "destination": "LIM",
+        "airline": "Air India",
+        "status": "Demorado",
+        "departure": "16:10",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "NZ321",
+        "origin": "BOG",
+        "destination": "EZE",
+        "airline": "Air New Zealand",
+        "status": "Adelantado",
+        "departure": "14:00",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "EY234",
+        "origin": "LIM",
+        "destination": "SCL",
+        "airline": "Etihad Airways",
+        "status": "Cancelado",
+        "departure": "20:10",
+        "date": "28-10-2024"
+    }
+]

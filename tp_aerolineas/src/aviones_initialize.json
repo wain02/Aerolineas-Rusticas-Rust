@@ -1,0 +1,706 @@
+[
+    {
+        "flight_number": "AR124",
+        "origin": "EZE",
+        "destination": "GRU",
+        "altitude": "10000",
+        "speed": "900",
+        "airline": "Aerolineas Argentinas",
+        "position": [
+            35.99,
+            55.33
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 99.75,
+        "status": "ATiempo",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "FB123",
+        "origin": "EZE",
+        "destination": "SCL",
+        "altitude": "11000",
+        "speed": "850",
+        "airline": "Flybondi",
+        "position": [
+            26.89,
+            15.55
+        ],
+        "direction": "Oeste",
+        "fuel_percentage": 95.45,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "GL678",
+        "origin": "GRU",
+        "destination": "EZE",
+        "altitude": "12000",
+        "speed": "800",
+        "airline": "Delta Airlines",
+        "position": [
+            43.52,
+            61.14
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 97.96,
+        "status": "Adelantado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AR777",
+        "origin": "SCL",
+        "destination": "GRU",
+        "altitude": "9000",
+        "speed": "750",
+        "airline": "JetSmart",
+        "position": [
+            43.40,
+            61.05
+        ],
+        "direction": "Este",
+        "fuel_percentage": 97.16,
+        "status": "Adelantado",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "AA100",
+        "origin": "EZE",
+        "destination": "BOG",
+        "altitude": "11000",
+        "speed": "820",
+        "airline": "American Airlines",
+        "position": [
+            23.66,
+            37.83
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 91.95,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH999",
+        "origin": "BOG",
+        "destination": "LIM",
+        "altitude": "10000",
+        "speed": "870",
+        "airline": "Lufthansa",
+        "position": [
+            88.68,
+            5.60
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 94.45,
+        "status": "Demorado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AF654",
+        "origin": "SCL",
+        "destination": "GRU",
+        "altitude": "10500",
+        "speed": "900",
+        "airline": "Air France",
+        "position": [
+            24.13,
+            17.36
+        ],
+        "direction": "Este",
+        "fuel_percentage": 90.95,
+        "status": "ATiempo",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "BA997",
+        "origin": "EZE",
+        "destination": "LIM",
+        "altitude": "12000",
+        "speed": "780",
+        "airline": "British Airways",
+        "position": [
+            22.98,
+            37.34
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 88.96,
+        "status": "Adelantado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "IB777",
+        "origin": "CCS",
+        "destination": "SCL",
+        "altitude": "9500",
+        "speed": "860",
+        "airline": "Iberia",
+        "position": [
+            97.77,
+            16.14
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 90.45,
+        "status": "ATiempo",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "KL555",
+        "origin": "LIM",
+        "destination": "EZE",
+        "altitude": "10000",
+        "speed": "840",
+        "airline": "KLM",
+        "position": [
+            48.27,
+            7.45
+        ],
+        "direction": "Este",
+        "fuel_percentage": 92.95,
+        "status": "Demorado",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "UA789",
+        "origin": "SCL",
+        "destination": "BOG",
+        "altitude": "11500",
+        "speed": "910",
+        "airline": "United Airlines",
+        "position": [
+            23.55,
+            37.77
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 96.15,
+        "status": "ATiempo",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "LH222",
+        "origin": "EZE",
+        "destination": "CCS",
+        "altitude": "9500",
+        "speed": "850",
+        "airline": "Lufthansa",
+        "position": [
+            36.89,
+            42.17
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 88.45,
+        "status": "Adelantado",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "AI222",
+        "origin": "GRU",
+        "destination": "LIM",
+        "altitude": "12000",
+        "speed": "800",
+        "airline": "Air India",
+        "position": [
+            52.89,
+            -5.23
+        ],
+        "direction": "Oeste",
+        "fuel_percentage": 97.76,
+        "status": "ATiempo",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "NZ111",
+        "origin": "BOG",
+        "destination": "EZE",
+        "altitude": "10500",
+        "speed": "890",
+        "airline": "Air New Zealand",
+        "position": [
+            75.12,
+            12.57
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 94.95,
+        "status": "Demorado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "EY999",
+        "origin": "LIM",
+        "destination": "SCL",
+        "altitude": "9500",
+        "speed": "820",
+        "airline": "Etihad Airways",
+        "position": [
+            48.82,
+            -4.53
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 99.15,
+        "status": "ATiempo",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "QR123",
+        "origin": "EZE",
+        "destination": "GRU",
+        "altitude": "11000",
+        "speed": "830",
+        "airline": "Qatar Airways",
+        "position": [
+            35.72,
+            55.14
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 92.05,
+        "status": "Adelantado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "SU888",
+        "origin": "SCL",
+        "destination": "BOG",
+        "altitude": "11500",
+        "speed": "900",
+        "airline": "Aeroflot",
+        "position": [
+            26.91,
+            15.88
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 94.35,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "EK333",
+        "origin": "BOG",
+        "destination": "LIM",
+        "altitude": "12000",
+        "speed": "870",
+        "airline": "Emirates",
+        "position": [
+            88.68,
+            5.60
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 91.65,
+        "status": "ATiempo",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "AC777",
+        "origin": "LIM",
+        "destination": "EZE",
+        "altitude": "10000",
+        "speed": "860",
+        "airline": "Air Canada",
+        "position": [
+            48.29,
+            7.55
+        ],
+        "direction": "Este",
+        "fuel_percentage": 97.45,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH888",
+        "origin": "CCS",
+        "destination": "SCL",
+        "altitude": "11000",
+        "speed": "840",
+        "airline": "Lufthansa",
+        "position": [
+            97.77,
+            16.30
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 88.95,
+        "status": "Demorado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH889",
+        "origin": "CCS",
+        "destination": "SCL",
+        "altitude": "11000",
+        "speed": "840",
+        "airline": "Lufthansa",
+        "position": [
+            97.77,
+            16.30
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 88.95,
+        "status": "Demorado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH890",
+        "origin": "CCS",
+        "destination": "SCL",
+        "altitude": "11000",
+        "speed": "840",
+        "airline": "Lufthansa",
+        "position": [
+            97.77,
+            16.30
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 88.95,
+        "status": "Demorado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH892",
+        "origin": "CCS",
+        "destination": "SCL",
+        "altitude": "11000",
+        "speed": "840",
+        "airline": "Lufthansa",
+        "position": [
+            97.77,
+            16.30
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 88.95,
+        "status": "Demorado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH111",
+        "origin": "CCS",
+        "destination": "SCL",
+        "altitude": "11000",
+        "speed": "840",
+        "airline": "Lufthansa",
+        "position": [
+            97.77,
+            16.30
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 88.95,
+        "status": "Demorado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AR125",
+        "origin": "EZE",
+        "destination": "GRU",
+        "altitude": "9500",
+        "speed": "880",
+        "airline": "Aerolineas Argentinas",
+        "position": [
+            36.12,
+            56.24
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 99.55,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "FB124",
+        "origin": "EZE",
+        "destination": "SCL",
+        "altitude": "10500",
+        "speed": "870",
+        "airline": "Flybondi",
+        "position": [
+            27.78,
+            16.14
+        ],
+        "direction": "Oeste",
+        "fuel_percentage": 93.45,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "GL679",
+        "origin": "GRU",
+        "destination": "EZE",
+        "altitude": "11500",
+        "speed": "810",
+        "airline": "Delta Airlines",
+        "position": [
+            44.12,
+            62.78
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 96.10,
+        "status": "Demorado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AR778",
+        "origin": "SCL",
+        "destination": "GRU",
+        "altitude": "9800",
+        "speed": "860",
+        "airline": "JetSmart",
+        "position": [
+            43.20,
+            60.98
+        ],
+        "direction": "Este",
+        "fuel_percentage": 94.40,
+        "status": "Adelantado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AA101",
+        "origin": "EZE",
+        "destination": "BOG",
+        "altitude": "10900",
+        "speed": "830",
+        "airline": "American Airlines",
+        "position": [
+            24.05,
+            38.50
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 92.25,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH1001",
+        "origin": "BOG",
+        "destination": "LIM",
+        "altitude": "10000",
+        "speed": "880",
+        "airline": "Lufthansa",
+        "position": [
+            89.45,
+            6.23
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 95.80,
+        "status": "Demorado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AF655",
+        "origin": "SCL",
+        "destination": "GRU",
+        "altitude": "11000",
+        "speed": "890",
+        "airline": "Air France",
+        "position": [
+            24.87,
+            17.70
+        ],
+        "direction": "Este",
+        "fuel_percentage": 92.05,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "BA998",
+        "origin": "EZE",
+        "destination": "LIM",
+        "altitude": "11800",
+        "speed": "800",
+        "airline": "British Airways",
+        "position": [
+            23.80,
+            37.70
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 89.30,
+        "status": "Adelantado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "IB778",
+        "origin": "CCS",
+        "destination": "SCL",
+        "altitude": "10000",
+        "speed": "860",
+        "airline": "Iberia",
+        "position": [
+            98.45,
+            16.50
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 91.50,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "KL556",
+        "origin": "LIM",
+        "destination": "EZE",
+        "altitude": "10500",
+        "speed": "850",
+        "airline": "KLM",
+        "position": [
+            49.27,
+            7.88
+        ],
+        "direction": "Este",
+        "fuel_percentage": 93.20,
+        "status": "Demorado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "UA790",
+        "origin": "SCL",
+        "destination": "BOG",
+        "altitude": "11500",
+        "speed": "920",
+        "airline": "United Airlines",
+        "position": [
+            24.25,
+            38.02
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 96.30,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "LH223",
+        "origin": "EZE",
+        "destination": "CCS",
+        "altitude": "10000",
+        "speed": "840",
+        "airline": "Lufthansa",
+        "position": [
+            37.00,
+            42.25
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 89.15,
+        "status": "Adelantado",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AI223",
+        "origin": "GRU",
+        "destination": "LIM",
+        "altitude": "11800",
+        "speed": "790",
+        "airline": "Air India",
+        "position": [
+            53.02,
+            -4.56
+        ],
+        "direction": "Oeste",
+        "fuel_percentage": 97.85,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "NZ112",
+        "origin": "BOG",
+        "destination": "CCS",
+        "altitude": "11000",
+        "speed": "890",
+        "airline": "Air New Zealand",
+        "position": [
+            76.15,
+            13.10
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 94.60,
+        "status": "Demorado",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "EY1000",
+        "origin": "LIM",
+        "destination": "SCL",
+        "altitude": "9600",
+        "speed": "830",
+        "airline": "Etihad Airways",
+        "position": [
+            49.05,
+            -3.20
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 99.35,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "QR124",
+        "origin": "CCS",
+        "destination": "GRU",
+        "altitude": "11000",
+        "speed": "850",
+        "airline": "Qatar Airways",
+        "position": [
+            36.25,
+            55.60
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 92.30,
+        "status": "Adelantado",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "SU889",
+        "origin": "SCL",
+        "destination": "BOG",
+        "altitude": "11500",
+        "speed": "890",
+        "airline": "Aeroflot",
+        "position": [
+            27.05,
+            16.00
+        ],
+        "direction": "Norte",
+        "fuel_percentage": 94.90,
+        "status": "ATiempo",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "EK334",
+        "origin": "BOG",
+        "destination": "LIM",
+        "altitude": "12000",
+        "speed": "880",
+        "airline": "Emirates",
+        "position": [
+            89.05,
+            6.00
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 91.90,
+        "status": "ATiempo",
+        "date": "28-10-2024"
+    },
+    {
+        "flight_number": "AC778",
+        "origin": "LIM",
+        "destination": "EZE",
+        "altitude": "10200",
+        "speed": "860",
+        "airline": "Air Canada",
+        "position": [
+            48.45,
+            7.70
+        ],
+        "direction": "Este",
+        "fuel_percentage": 97.60,
+        "status": "ATiempo",
+        "date": "27-10-2024"
+    },
+    {
+        "flight_number": "LH889",
+        "origin": "CCS",
+        "destination": "SCL",
+        "altitude": "11000",
+        "speed": "860",
+        "airline": "Lufthansa",
+        "position": [
+            98.65,
+            16.40
+        ],
+        "direction": "Sur",
+        "fuel_percentage": 90.05,
+        "status": "Demorado",
+        "date": "27-10-2024"
+    }
+]

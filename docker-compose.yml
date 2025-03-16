@@ -1,0 +1,160 @@
+version: "3.9"
+
+services:
+  base_image:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: tp_aerolineas_image
+    networks:
+      - tp_aerolineas_network
+
+  nodo8080:
+    image: tp_aerolineas_image
+    container_name: nodo8080
+    environment:
+      - NODE_ARG=8080
+      - THREADS=6
+      - NODOS=${NODOS}
+      - ADAPT=${ADAPT}
+    ports:
+      - "8080:8080"
+    volumes:
+      - nodo8080_data:/app/tp_aerolineas/nodos/nodo8080
+    working_dir: /app/tp_aerolineas/nodos/nodo8080
+    entrypoint: [ "/app/entrypoint.sh" ]
+    networks:
+      - tp_aerolineas_network
+
+  nodo8081:
+    image: tp_aerolineas_image
+    container_name: nodo8081
+    environment:
+      - NODE_ARG=8081
+      - THREADS=6
+      - NODOS=${NODOS}
+      - ADAPT=${ADAPT}
+    ports:
+      - "8081:8081"
+    volumes:
+      - nodo8081_data:/app/tp_aerolineas/nodos/nodo8081
+    working_dir: /app/tp_aerolineas/nodos/nodo8081
+    entrypoint: [ "/app/entrypoint.sh" ]
+    networks:
+      - tp_aerolineas_network
+
+  nodo8082:
+    image: tp_aerolineas_image
+    container_name: nodo8082
+    environment:
+      - NODE_ARG=8082
+      - THREADS=6
+      - NODOS=${NODOS}
+      - ADAPT=${ADAPT}
+    ports:
+      - "8082:8082"
+    volumes:
+      - nodo8082_data:/app/tp_aerolineas/nodos/nodo8082
+    working_dir: /app/tp_aerolineas/nodos/nodo8082
+    entrypoint: [ "/app/entrypoint.sh" ]
+    networks:
+      - tp_aerolineas_network
+
+  nodo8083:
+    image: tp_aerolineas_image
+    container_name: nodo8083
+    environment:
+      - NODE_ARG=8083
+      - THREADS=6
+      - NODOS=${NODOS}
+      - ADAPT=${ADAPT}
+    ports:
+      - "8083:8083"
+    volumes:
+      - nodo8083_data:/app/tp_aerolineas/nodos/nodo8083
+    working_dir: /app/tp_aerolineas/nodos/nodo8083
+    entrypoint: [ "/app/entrypoint.sh" ]
+    networks:
+      - tp_aerolineas_network
+
+  nodo8084:
+    image: tp_aerolineas_image
+    container_name: nodo8084
+    environment:
+      - NODE_ARG=8084
+      - THREADS=6
+      - NODOS=${NODOS}
+      - ADAPT=${ADAPT}
+    ports:
+      - "8084:8084"
+    volumes:
+      - nodo8084_data:/app/tp_aerolineas/nodos/nodo8084
+    working_dir: /app/tp_aerolineas/nodos/nodo8084
+    entrypoint: [ "/app/entrypoint.sh" ]
+    networks:
+      - tp_aerolineas_network
+
+  nodo8085:
+    image: tp_aerolineas_image
+    container_name: nodo8085
+    environment:
+      - NODE_ARG=8085
+      - THREADS=6
+      - NODOS=${NODOS}
+      - ADAPT=${ADAPT}
+    ports:
+      - "8085:8085"
+    volumes:
+      - nodo8085_data:/app/tp_aerolineas/nodos/nodo8085
+    working_dir: /app/tp_aerolineas/nodos/nodo8085
+    entrypoint: [ "/app/entrypoint.sh" ]
+    networks:
+      - tp_aerolineas_network
+
+  nodo8086:
+    image: tp_aerolineas_image
+    container_name: nodo8086
+    environment:
+      - NODE_ARG=8086
+      - THREADS=6
+      - NODOS=${NODOS}
+      - ADAPT=${ADAPT}
+    ports:
+      - "8086:8086"
+    volumes:
+      - nodo8086_data:/app/tp_aerolineas/nodos/nodo8086
+    working_dir: /app/tp_aerolineas/nodos/nodo8086
+    entrypoint: [ "/app/entrypoint.sh" ]
+    networks:
+      - tp_aerolineas_network
+
+  nodo8087:
+    image: tp_aerolineas_image
+    container_name: nodo8087
+    environment:
+      - NODE_ARG=8087
+      - THREADS=6
+      - NODOS=${NODOS}
+      - ADAPT=${ADAPT}
+    ports:
+      - "8087:8087"
+    volumes:
+      - nodo8087_data:/app/tp_aerolineas/nodos/nodo8087
+    working_dir: /app/tp_aerolineas/nodos/nodo8087
+    entrypoint: [ "/app/entrypoint.sh" ]
+    networks:
+      - tp_aerolineas_network
+
+networks:
+  tp_aerolineas_network:
+    driver: bridge
+
+volumes:
+  nodo8080_data:
+  nodo8081_data:
+  nodo8082_data:
+  nodo8083_data:
+  nodo8084_data:
+  nodo8085_data:
+  nodo8086_data:
+  nodo8087_data:

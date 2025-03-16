@@ -1,0 +1,507 @@
+[
+    {
+        "nodos_type": "NODOS_4",
+        "nodos": [
+            {
+                "address": "nodo8080:8080",
+                "puerto": "8080",
+                "replication_nodos": [
+                    "nodo8083:8083",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    13835058055282163709,
+                    9223372036854775806
+                ]
+            },
+            {
+                "address": "nodo8081:8081",
+                "puerto": "8081",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8082:8082"
+                ],
+                "token_range": [
+                    0,
+                    13835058055282163709
+                ]
+            },
+            {
+                "address": "nodo8082:8082",
+                "puerto": "8082",
+                "replication_nodos": [
+                    "nodo8081:8081",
+                    "nodo8083:8083"
+                ],
+                "token_range": [
+                    4611686018427387903,
+                    18446744073709551615
+                ]
+            },
+            {
+                "address": "nodo8083:8083",
+                "puerto": "8083",
+                "replication_nodos": [
+                    "nodo8082:8082",
+                    "nodo8080:8080"
+                ],
+                "token_range": [
+                    9223372036854775806,
+                    4611686018427387903
+                ]
+            },
+            {
+                "address": "nodo8084:8084",
+                "puerto": "8084",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "address": "nodo8085:8085",
+                "puerto": "8085",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "address": "nodo8086:8086",
+                "puerto": "8086",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "address": "nodo8087:8087",
+                "puerto": "8087",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    0,
+                    0
+                ]
+            }
+        ]
+    },
+    {
+        "nodos_type": "NODOS_5",
+        "nodos": [
+            {
+                "address": "nodo8080:8080",
+                "puerto": "8080",
+                "replication_nodos": [
+                    "nodo8084:8084",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    14757395258967641292,
+                    7378697629483820646
+                ]
+            },
+            {
+                "address": "nodo8081:8081",
+                "puerto": "8081",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8082:8082"
+                ],
+                "token_range": [
+                    0,
+                    11068046444225730969
+                ]
+            },
+            {
+                "address": "nodo8082:8082",
+                "puerto": "8082",
+                "replication_nodos": [
+                    "nodo8081:8081",
+                    "nodo8083:8083"
+                ],
+                "token_range": [
+                    3689348814741910323,
+                    14757395258967641292
+                ]
+            },
+            {
+                "address": "nodo8083:8083",
+                "puerto": "8083",
+                "replication_nodos": [
+                    "nodo8082:8082",
+                    "nodo8084:8084"
+                ],
+                "token_range": [
+                    7378697629483820646,
+                    18446744073709551615
+                ]
+            },
+            {
+                "address": "nodo8084:8084",
+                "puerto": "8084",
+                "replication_nodos": [
+                    "nodo8083:8083",
+                    "nodo8080:8080"
+                ],
+                "token_range": [
+                    11068046444225730969,
+                    3689348814741910323
+                ]
+            },
+            {
+                "address": "nodo8085:8085",
+                "puerto": "8085",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "address": "nodo8086:8086",
+                "puerto": "8086",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "address": "nodo8087:8087",
+                "puerto": "8087",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    0,
+                    0
+                ]
+            }
+        ]
+    },
+    {
+        "nodos_type": "NODOS_6",
+        "nodos": [
+            {
+                "address": "nodo8080:8080",
+                "puerto": "8080",
+                "replication_nodos": [
+                    "nodo8085:8085",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    15372286728091293010,
+                    6148914691236517204
+                ]
+            },
+            {
+                "address": "nodo8081:8081",
+                "puerto": "8081",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8082:8082"
+                ],
+                "token_range": [
+                    0,
+                    9223372036854775806
+                ]
+            },
+            {
+                "address": "nodo8082:8082",
+                "puerto": "8082",
+                "replication_nodos": [
+                    "nodo8081:8081",
+                    "nodo8083:8083"
+                ],
+                "token_range": [
+                    3074457345618258602,
+                    12297829382473034408
+                ]
+            },
+            {
+                "address": "nodo8083:8083",
+                "puerto": "8083",
+                "replication_nodos": [
+                    "nodo8082:8082",
+                    "nodo8084:8084"
+                ],
+                "token_range": [
+                    6148914691236517204,
+                    15372286728091293010
+                ]
+            },
+            {
+                "address": "nodo8084:8084",
+                "puerto": "8084",
+                "replication_nodos": [
+                    "nodo8083:8083",
+                    "nodo8085:8085"
+                ],
+                "token_range": [
+                    9223372036854775806,
+                    18446744073709551615
+                ]
+            },
+            {
+                "address": "nodo8085:8085",
+                "puerto": "8085",
+                "replication_nodos": [
+                    "nodo8084:8084",
+                    "nodo8080:8080"
+                ],
+                "token_range": [
+                    12297829382473034408,
+                    3074457345618258602
+                ]
+            },
+            {
+                "address": "nodo8086:8086",
+                "puerto": "8086",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "address": "nodo8087:8087",
+                "puerto": "8087",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    0,
+                    0
+                ]
+            }
+        ]
+    },
+    {
+        "nodos_type": "NODOS_7",
+        "nodos": [
+            {
+                "address": "nodo8080:8080",
+                "puerto": "8080",
+                "replication_nodos": [
+                    "nodo8085:8085",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    13176245766935394010,
+                    5270498306774157604
+                ]
+            },
+            {
+                "address": "nodo8081:8081",
+                "puerto": "8081",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8082:8082"
+                ],
+                "token_range": [
+                    0,
+                    7905747460161236406
+                ]
+            },
+            {
+                "address": "nodo8082:8082",
+                "puerto": "8082",
+                "replication_nodos": [
+                    "nodo8081:8081",
+                    "nodo8083:8083"
+                ],
+                "token_range": [
+                    2635249153387078802,
+                    10540996613548315208
+                ]
+            },
+            {
+                "address": "nodo8083:8083",
+                "puerto": "8083",
+                "replication_nodos": [
+                    "nodo8082:8082",
+                    "nodo8084:8084"
+                ],
+                "token_range": [
+                    5270498306774157604,
+                    13176245766935394010
+                ]
+            },
+            {
+                "address": "nodo8084:8084",
+                "puerto": "8084",
+                "replication_nodos": [
+                    "nodo8083:8083",
+                    "nodo8085:8085"
+                ],
+                "token_range": [
+                    7905747460161236406,
+                    15811494920322472812
+                ]
+            },
+            {
+                "address": "nodo8085:8085",
+                "puerto": "8085",
+                "replication_nodos": [
+                    "nodo8084:8084",
+                    "nodo8080:8080"
+                ],
+                "token_range": [
+                    10540996613548315208,
+                    18446744073709551615
+                ]
+            },
+            {
+                "address": "nodo8086:8086",
+                "puerto": "8086",
+                "replication_nodos": [
+                    "nodo8085:8085",
+                    "nodo8080:8080"
+                ],
+                "token_range": [
+                    13176245766935394010,
+                    2635249153387078802
+                ]
+            },
+            {
+                "address": "nodo8087:8087",
+                "puerto": "8087",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    0,
+                    0
+                ]
+            }
+        ]
+    },
+    {
+        "nodos_type": "NODOS_8",
+        "nodos": [
+            {
+                "address": "nodo8080:8080",
+                "puerto": "8080",
+                "replication_nodos": [
+                    "nodo8087:8087",
+                    "nodo8081:8081"
+                ],
+                "token_range": [
+                    16140901064495857657,
+                    4611686018427387902
+                ]
+            },
+            {
+                "address": "nodo8081:8081",
+                "puerto": "8081",
+                "replication_nodos": [
+                    "nodo8080:8080",
+                    "nodo8082:8082"
+                ],
+                "token_range": [
+                    0,
+                    6917529027641081853
+                ]
+            },
+            {
+                "address": "nodo8082:8082",
+                "puerto": "8082",
+                "replication_nodos": [
+                    "nodo8081:8081",
+                    "nodo8083:8083"
+                ],
+                "token_range": [
+                    2305843009213693951,
+                    9223372036854775804
+                ]
+            },
+            {
+                "address": "nodo8083:8083",
+                "puerto": "8083",
+                "replication_nodos": [
+                    "nodo8082:8082",
+                    "nodo8084:8084"
+                ],
+                "token_range": [
+                    4611686018427387902,
+                    11529215046068469755
+                ]
+            },
+            {
+                "address": "nodo8084:8084",
+                "puerto": "8084",
+                "replication_nodos": [
+                    "nodo8083:8083",
+                    "nodo8085:8085"
+                ],
+                "token_range": [
+                    6917529027641081853,
+                    13835058055282163706
+                ]
+            },
+            {
+                "address": "nodo8085:8085",
+                "puerto": "8085",
+                "replication_nodos": [
+                    "nodo8084:8084",
+                    "nodo8086:8086"
+                ],
+                "token_range": [
+                    9223372036854775804,
+                    16140901064495857657
+                ]
+            },
+            {
+                "address": "nodo8086:8086",
+                "puerto": "8086",
+                "replication_nodos": [
+                    "nodo8085:8085",
+                    "nodo8087:8087"
+                ],
+                "token_range": [
+                    11529215046068469755,
+                    18446744073709551615
+                ]
+            },
+            {
+                "address": "nodo8087:8087",
+                "puerto": "8087",
+                "replication_nodos": [
+                    "nodo8086:8086",
+                    "nodo8080:8080"
+                ],
+                "token_range": [
+                    13835058055282163706,
+                    2305843009213693951
+                ]
+            }
+        ]
+    }
+]
